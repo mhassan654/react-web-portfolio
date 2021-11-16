@@ -183,7 +183,8 @@ class Footer extends Component {
                     <Grid className="footerBottom">
                         <Grid container spacing={4}>
                             <Grid item xs={12}>
-                                <p>{this.props.t('Footer.Copyright')}</p>
+                                {/* <p>{this.props.t('Footer.Copyright')}</p> */}
+                                <p>Copyrights 2021 SaavaTech</p>
                             </Grid>
                         </Grid>
                     </Grid>
